@@ -154,7 +154,7 @@ export default function Transactions({
                   className="border-t border-white/5 transition hover:bg-white/5"
                 >
                   <td className="px-5 py-4 text-white/45 whitespace-nowrap">
-                    {new Date(t.date).toLocaleDateString("en-US", {
+                    {new Date(t.date).toLocaleDateString("en-IN", {
                       month: "short",
                       day: "numeric",
                       year: "numeric",
